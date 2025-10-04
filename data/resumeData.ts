@@ -1,26 +1,25 @@
 export const resumeData = {
   name: "Clifford Reeve Menezes",
   title: "Master’s Student in Computer Engineering @ Virginia Tech",
-  about: `I’m a Master’s student specializing in networking, security, and systems. 
-  I enjoy backend engineering, cloud development, and building scalable systems.`,
+  about: `I’m Clifford Reeve Menezes, a Master’s student in Computer Engineering at Virginia Tech with a focus on <span class="font-semibold text-violet-500">software engineering</span>, cloud security, and backend development. Skilled in Go, AWS, Docker, Kubernetes, and Terraform, I design and build scalable systems with a security-first approach. Driven by problem-solving and impact, I’m eager to contribute to innovative teams and deliver solutions that scale.`,
 
   contact: {
     email: "reevemenezes@vt.edu",
     phone: "+1 (540)-824-9173",
     linkedin: "https://www.linkedin.com/in/reevemenezes",
     github: "https://github.com/thereevemenezes",
-    resume: "/resume.pdf"
+    resume: "public\Clifford_Reeve_Menezes_Resume_Oct2025.pdf"
   },
 
   skills: {
-    languages: ["Python", "Go", "TypeScript", "SQL", "C++", "JavaScript", "HTML", "CSS"],
+    languages: ["Python (Proficient)", "Go (Intermediate)", "SQL (Proficient)", "C++ (Intermediate)", "TypeScript (Intermediate)", "JavaScript (Intermediate)"],
     backendCloud: [
       "AWS (Lambda, S3, EC2, Rekognition, CloudWatch, IAM)",
       "Flask", "Node.js", "GraphQL", "Docker", "Kubernetes", "Terraform", "boto3", "NoSQL"
     ],
     frontend: ["React", "Redux", "TypeScript", "HTML/CSS"],
     devops: ["Linux", "Git", "CI/CD", "Postgres", "JIRA", "Spring Boot", "Matlab"],
-    dataML: ["PyTorch", "TensorFlow", "Scikit-learn", "OpenCV", "Pandas", "NumPy", "Matplotlib", "Transformers"]
+    AI: ["PyTorch", "TensorFlow", "Scikit-learn", "OpenCV", "Pandas", "NumPy", "Matplotlib", "Transformers"]
   },
 
   education: [
@@ -28,7 +27,8 @@ export const resumeData = {
       degree: "M.S. Computer Engineering",
       school: "Virginia Tech",
       dates: "Aug 2024 – May 2026",
-      details: ["Networking", "Network Security", "Advanced Machine Learning", "Computer Vision"]
+      details: ["Networking", "Network Security", "Advanced Machine Learning", "Computer Vision"],
+      gpa: "3.74 / 4.0"
     },
     {
       degree: "B.Tech Computer Science and Engineering",
